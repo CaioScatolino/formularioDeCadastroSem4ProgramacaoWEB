@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:#edeef0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color:#4a76a8;
+    color: white;
+    height: 5vh;
+}
+
+header h1 {
+    font-weight: 500;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #FFF;
+    border:1px solid #c9cacc;
+    border-radius:5px;
+    padding:20px;
+    margin-top:50px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+form .input {
+    display: block;
+    height: 15px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+    margin-top: 10px;
+    width: 95%;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+form .button {
+    border:0;
+    padding:10px 20px;
+    background-color:#4a76a8;
+    border-radius:10px;
+    color:#FFF;
+    font-size:15px;
+    margin-bottom:10px;
+    cursor:pointer;
+    box-shadow:0px 0px 3px #999;
+    margin-right: 20px;
+}
+
+.radio {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#sexo {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+

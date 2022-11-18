@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devsbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Devsbook</h1>
+    </header>
+    <main>
+        <form action="processa_form.php" method="get">
+            <label for="nome">Nome
+                <input required class="input" type="text" name="nome" id="nome" placeholder="Insira seu nome">
+            </label>
+            <label for="cidade">Cidade
+                <input required class="input" type="text" name="cidade" id="cidade"
+                    placeholder="Insira sua cidade atual">
+            </label>
+            <label for="email">E-mail
+                <input required class="input" type="email" name="email" id="email" placeholder="Insira seu e-mail">
+            </label>
+            <label for="senha">Senha
+                <input required class="input" type="password" name="senha" id="senha" placeholder="Insira sua senha">
+            </label>
+
+            <label for="celular">Celular
+                <input required class="input" type="number" name="celular" id="celular"
+                    placeholder="Insira seu DDD + número de celular">
+            </label>
+
+            <label for="data">Data de Nascimento
+                <input required class="input" type="date" name="data" id="data">
+            </label>
+
+            <label for="sexo" class="radio">Sexo:
+                <input type="radio" name="sexo" id="sexo" value="Masculino">Masculino
+                <input type="radio" name="sexo" id="sexo" value="Feminino">Feminino
+            </label>
+
+            <label for="foto">Foto
+                <input required class="input" type="file" name="foto" id="foto">
+            </label>
+
+            <label for="cor">Cor Favorita:
+                <input type="color" name="cor" id="cor">
+            </label>
+
+            <button type="submit" class="button">Enviar</button>
+            <button type="reset" class="button">Resetar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
